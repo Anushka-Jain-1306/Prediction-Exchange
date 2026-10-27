@@ -27,3 +27,15 @@ exchange.db
 .cache/
 terminal.txt
 .env
+
+# Secrets & local-only state: NEVER commit (added 2026-10-27)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+gsheet_creds.json
+*credentials*
+exchange.db
+data/
+anaconda_projects/
